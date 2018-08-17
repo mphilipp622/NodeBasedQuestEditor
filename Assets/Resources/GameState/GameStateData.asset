@@ -13,3 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameStates:
   - {fileID: 11400000, guid: 6abe336309132bf4faae77468d3b0cbb, type: 2}
+  - {fileID: 11400000, guid: 48d441da72afa6b4e87a0b88d49dcc2f, type: 2}
+  - {fileID: 11400000, guid: de23e946a290b1e4b8471e68cd05cd40, type: 2}

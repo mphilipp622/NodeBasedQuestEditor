@@ -124,13 +124,17 @@ public class QuestDialogueNode : DialogueNode, IQuestNode
 			// This runs if this node comes from a choice node.
 			description = EditorGUILayout.TextField(new GUIContent("Dialogue Description", "Description is used for identifying branching dialogue options. Only need to use this when this dialogue is a choice between other dialogues."), description);
 
-			GUILayout.Space(10);
-			accept = EditorGUILayout.Toggle(
-				new GUIContent("Accept Quest", "Selecting this option sets this choice as accepting the quest"),
-				accept);
-			reject = EditorGUILayout.Toggle(
-				new GUIContent("Reject Quest", "Selecting this sets this choice as a rejection of the quest"),
-				reject);
+			if (!turnInQuest && !inProgressDialogue)
+			{
+				GUILayout.Space(10);
+				accept = EditorGUILayout.Toggle(
+					new GUIContent("Accept Quest", "Selecting this option sets this choice as accepting the quest"),
+					accept);
+				reject = EditorGUILayout.Toggle(
+					new GUIContent("Reject Quest", "Selecting this sets this choice as a rejection of the quest"),
+					reject);
+			}
+
 			speakers[0] = (GameObject)Resources.Load("Prefabs/Characters/Player");
 		}
 	}

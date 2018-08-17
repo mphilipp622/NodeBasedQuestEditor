@@ -8,8 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8051ad29762a9e4bac28d409d693033, type: 3}
-  m_Name: FlameLizards
+  m_Script: {fileID: 11500000, guid: a5900db68aa568149abc9b0c1288041b, type: 3}
+  m_Name: PLAYER_WALKED_100_MILES
   m_EditorClassIdentifier: 
-  questName: FlameLizards
-  questGiver: {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  eventName: PLAYER_WALKED_100_MILES
