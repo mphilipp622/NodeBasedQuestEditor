@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8051ad29762a9e4bac28d409d693033, type: 3}
+  m_Name: Kill Rock Goblins
+  m_EditorClassIdentifier: 
+  questName: Kill Rock Goblins
+  questGiver: {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 2}

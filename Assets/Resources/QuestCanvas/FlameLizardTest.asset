@@ -1,0 +1,1084 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4302bd4f18e0e44492dfe8de3e05c5e, type: 3}
+  m_Name: FlameLizardTest
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114015125491587254}
+  - {fileID: 114834307336913908}
+  - {fileID: 114948278557054622}
+  - {fileID: 114890871809566710}
+  - {fileID: 114397543885895538}
+  - {fileID: 114761862672986224}
+  - {fileID: 114136843188619620}
+  - {fileID: 114317191070957970}
+  - {fileID: 114657795467008586}
+  - {fileID: 114332765864202912}
+  choiceNodes:
+  - {fileID: 114834307336913908}
+  choiceNodeNames:
+  - Choice State 1
+  requiredGameStateSelections: 00
+  requiredGameStates: []
+  scrollOffset: {x: -316, y: -839}
+  zoom: 2
+  questName: FlameLizards
+  questObjectives: []
+  objectivePaths:
+  - {fileID: 114438703254678106}
+  - {fileID: 114172545724994544}
+  numberOfObjectivesToCollect: 
+  requiredQuests: []
+  newQuest: {fileID: 11400000, guid: 972352942459a214b9a1a5608aa3db36, type: 2}
+  questGiver: {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+--- !u!114 &114015125491587254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 1
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: -172
+    y: -656
+    width: 350
+    height: 539
+  Inputs:
+  - {fileID: 114351105236137518}
+  Outputs:
+  - {fileID: 114764800168655984}
+  state: 1
+  description: 
+  expanded: 1
+  isStartState: 1
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Hey, Go to this place and kill flame lizards for me.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 1
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 0
+  inProgressDialogue: 0
+--- !u!114 &114136843188619620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 6
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 763.5
+    y: -46
+    width: 350
+    height: 462
+  Inputs:
+  - {fileID: 114887940865944298}
+  Outputs:
+  - {fileID: 114304256471247678}
+  state: 6
+  description: 
+  expanded: 1
+  isStartState: 0
+  isFinalState: 1
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Got it, thanks!
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 0
+  inProgressDialogue: 1
+--- !u!114 &114168390584086496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114657795467008586}
+  rect:
+    serializedVersion: 2
+    x: 512.5
+    y: 556
+    width: 123
+    height: 16
+  connections:
+  - {fileID: 114215854532898688}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114172545724994544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7455387b04a15d04798607576d386a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectivePathName: Travel To Location
+  objectives:
+  - {fileID: 114897409479035526}
+--- !u!114 &114215854532898688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332765864202912}
+  rect:
+    serializedVersion: 2
+    x: 747.5
+    y: 557
+    width: 146
+    height: 16
+  connection: {fileID: 114168390584086496}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114217056238178006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114317191070957970}
+  rect:
+    serializedVersion: 2
+    x: 48.5
+    y: 561
+    width: 123
+    height: 16
+  connections:
+  - {fileID: 114857411233947066}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114259985410081662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 4
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -542
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114304256471247678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114136843188619620}
+  rect:
+    serializedVersion: 2
+    x: 990.5
+    y: -8
+    width: 123
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114307876548785004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -596
+    width: 111
+    height: 16
+  connections:
+  - {fileID: 114887525543447538}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114317191070957970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 7
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: -178.5
+    y: 523
+    width: 350
+    height: 481
+  Inputs:
+  - {fileID: 114620332814993140}
+  Outputs:
+  - {fileID: 114217056238178006}
+  state: 7
+  description: 
+  expanded: 1
+  isStartState: 1
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Job's done.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 1
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 1
+  inProgressDialogue: 0
+--- !u!114 &114323343501788308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114761862672986224}
+  rect:
+    serializedVersion: 2
+    x: 305.5
+    y: -16
+    width: 146
+    height: 16
+  connection: {fileID: 114977655205991478}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114332765864202912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 9
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 747.5
+    y: 519
+    width: 350
+    height: 462
+  Inputs:
+  - {fileID: 114215854532898688}
+  Outputs:
+  - {fileID: 114529060600079022}
+  state: 9
+  description: 
+  expanded: 1
+  isStartState: 0
+  isFinalState: 1
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Anytime, my dude.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 1
+  inProgressDialogue: 0
+--- !u!114 &114334580285850852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 5
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -524
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114351105236137518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114015125491587254}
+  rect:
+    serializedVersion: 2
+    x: -172
+    y: -618
+    width: 146
+    height: 16
+  connection: {fileID: 0}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114365336575718166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 307
+    y: -639
+    width: 150
+    height: 16
+  connection: {fileID: 114764800168655984}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114384667219213778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 3
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -560
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114395670445556290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 6
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -506
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114397543885895538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 4
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: -170.5
+    y: -45.5
+    width: 350
+    height: 481
+  Inputs:
+  - {fileID: 114731313656035352}
+  Outputs:
+  - {fileID: 114977655205991478}
+  state: 4
+  description: 
+  expanded: 1
+  isStartState: 1
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - What am I doing, again?
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 1
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 0
+  inProgressDialogue: 1
+--- !u!114 &114429627701772848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 7
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -488
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114438703254678106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7455387b04a15d04798607576d386a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectivePathName: Kill Lizards
+  objectives:
+  - {fileID: 114918463229462216}
+--- !u!114 &114510298852792386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114948278557054622}
+  rect:
+    serializedVersion: 2
+    x: 730
+    y: -713
+    width: 193
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114529060600079022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332765864202912}
+  rect:
+    serializedVersion: 2
+    x: 974.5
+    y: 557
+    width: 123
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114548942050941774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 8
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -470
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114596735133848126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114761862672986224}
+  rect:
+    serializedVersion: 2
+    x: 532.5
+    y: -16
+    width: 123
+    height: 16
+  connections:
+  - {fileID: 114887940865944298}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114605667456022844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114890871809566710}
+  rect:
+    serializedVersion: 2
+    x: 733
+    y: -621
+    width: 192
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114620332814993140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114317191070957970}
+  rect:
+    serializedVersion: 2
+    x: -178.5
+    y: 561
+    width: 146
+    height: 16
+  connection: {fileID: 0}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114657795467008586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 8
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 285.5
+    y: 518
+    width: 350
+    height: 498
+  Inputs:
+  - {fileID: 114857411233947066}
+  Outputs:
+  - {fileID: 114168390584086496}
+  state: 8
+  description: 
+  expanded: 1
+  isStartState: 0
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Thank you! Those lizards were a pain in the ass.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 1
+  inProgressDialogue: 0
+--- !u!114 &114731313656035352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114397543885895538}
+  rect:
+    serializedVersion: 2
+    x: -170.5
+    y: -7.5
+    width: 146
+    height: 16
+  connection: {fileID: 0}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114761862672986224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 5
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 305.5
+    y: -54
+    width: 350
+    height: 498
+  Inputs:
+  - {fileID: 114323343501788308}
+  Outputs:
+  - {fileID: 114596735133848126}
+  state: 5
+  description: 
+  expanded: 1
+  isStartState: 0
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Go to that place and kill 5 flame lizards.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 0
+  turnInQuest: 0
+  inProgressDialogue: 1
+--- !u!114 &114764800168655984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114015125491587254}
+  rect:
+    serializedVersion: 2
+    x: 55
+    y: -618
+    width: 123
+    height: 16
+  connections:
+  - {fileID: 114365336575718166}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114776385424091102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 9
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -452
+    width: 111
+    height: 16
+  connections: []
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114834307336913908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccddaa508bc1ad649bbb5ac792aecb54, type: 3}
+  m_Name: Choice State 1
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 307
+    y: -677
+    width: 155
+    height: 246
+  Inputs:
+  - {fileID: 114365336575718166}
+  Outputs:
+  - {fileID: 114307876548785004}
+  - {fileID: 114964659238599842}
+  - {fileID: 114384667219213778}
+  - {fileID: 114259985410081662}
+  - {fileID: 114334580285850852}
+  - {fileID: 114395670445556290}
+  - {fileID: 114429627701772848}
+  - {fileID: 114548942050941774}
+  - {fileID: 114776385424091102}
+  state: -2
+  description: 
+  expanded: 1
+  isStartState: 0
+  isFinalState: 0
+  previousChoiceNode: {fileID: 0}
+  originState: 1
+  turnInQuest: 0
+  inProgressDialogue: 0
+--- !u!114 &114857411233947066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114657795467008586}
+  rect:
+    serializedVersion: 2
+    x: 285.5
+    y: 556
+    width: 146
+    height: 16
+  connection: {fileID: 114217056238178006}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114887525543447538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114948278557054622}
+  rect:
+    serializedVersion: 2
+    x: 573
+    y: -713
+    width: 345
+    height: 16
+  connection: {fileID: 114307876548785004}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114887940865944298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114136843188619620}
+  rect:
+    serializedVersion: 2
+    x: 763.5
+    y: -8
+    width: 146
+    height: 16
+  connection: {fileID: 114596735133848126}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114890871809566710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 3
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 575
+    y: -641
+    width: 350
+    height: 50
+  Inputs:
+  - {fileID: 114927076781934842}
+  Outputs:
+  - {fileID: 114605667456022844}
+  state: 3
+  description: Reject
+  expanded: 0
+  isStartState: 0
+  isFinalState: 1
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Not interested, sorry.
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 0
+  reject: 1
+  turnInQuest: 0
+  inProgressDialogue: 0
+--- !u!114 &114897409479035526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41305f36d819b324fbfe9bf868040730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberToCollect: 0
+  objective: {fileID: 1320577151863524, guid: a64978a049f0d1546862750dc67095f8, type: 2}
+  moveUp: 0
+  moveDown: 0
+  delete: 0
+--- !u!114 &114918463229462216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41305f36d819b324fbfe9bf868040730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberToCollect: 5
+  objective: {fileID: 1563204960119586, guid: e7e936328b65b8f4bbe814d449382a57, type: 2}
+  moveUp: 0
+  moveDown: 0
+  delete: 0
+--- !u!114 &114927076781934842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd9b948f4e135e4a8f0a97ec36511d4, type: 3}
+  m_Name: Previous Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114890871809566710}
+  rect:
+    serializedVersion: 2
+    x: 575
+    y: -621
+    width: 345
+    height: 16
+  connection: {fileID: 114964659238599842}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114948278557054622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0f64701774fb4d9c8f8aa364070d2, type: 3}
+  m_Name: State 2
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 573
+    y: -733
+    width: 350
+    height: 50
+  Inputs:
+  - {fileID: 114887525543447538}
+  Outputs:
+  - {fileID: 114510298852792386}
+  state: 2
+  description: Accept
+  expanded: 0
+  isStartState: 0
+  isFinalState: 1
+  previousChoiceNode: {fileID: 0}
+  speakers:
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  speakerImages:
+  - {fileID: 0}
+  dialogues:
+  - Alright
+  styles:
+  - {fileID: 21300000, guid: f3249c4e4fcf3214981bd6e2ecbc6651, type: 3}
+  transitions: 
+  playerInitiatesConversation: 0
+  returnsToChoiceNode: 0
+  accept: 1
+  reject: 0
+  turnInQuest: 0
+  inProgressDialogue: 0
+--- !u!114 &114964659238599842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Dialogue Option 2
+  m_EditorClassIdentifier: 
+  body: {fileID: 114834307336913908}
+  rect:
+    serializedVersion: 2
+    x: 351
+    y: -578
+    width: 111
+    height: 16
+  connections:
+  - {fileID: 114927076781934842}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &114977655205991478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8540dc606510f764aa58ec26b6a1348b, type: 3}
+  m_Name: Next Dialogue State
+  m_EditorClassIdentifier: 
+  body: {fileID: 114397543885895538}
+  rect:
+    serializedVersion: 2
+    x: 56.5
+    y: -7.5
+    width: 123
+    height: 16
+  connections:
+  - {fileID: 114323343501788308}
+  type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089

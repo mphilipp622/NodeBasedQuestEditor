@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2cf6f92d656c0c2439528e97c53117ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - nodeCanvas: {instanceID: 0}
+  - activeNode: {instanceID: 0}
+  - connectOutput: {instanceID: 0}
+  - bezierTexture: {fileID: 2800000, guid: 098a373722df5e242ad026b3e8a732e6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
