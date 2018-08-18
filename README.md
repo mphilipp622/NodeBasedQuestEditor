@@ -8,14 +8,14 @@ This asset extends the Unity editor and provides a user interface for creating c
 
 ## How to Download
 
-If you want the entire project, you can just clone or download the repo. If you wish to download the unity package specifically, you can [download it here] (https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/NodeBasedQuestSystem.unitypackage)
+If you want the entire project, you can just clone or download the repo. If you wish to download the unity package specifically, you can [download it here](https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/NodeBasedQuestSystem.unitypackage)
 
 ## How to Use
 
-It is recommended to download and read the [how to use pdf] (https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/Assets/Node_Editor/HowToUseQuestEditor.pdf)
+It is recommended to download and read the [how to use pdf](https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/Assets/Node_Editor/HowToUseQuestEditor.pdf)
 
 Video Tutorials will be posted soon.
 
-Tutorials on the basics of the dialogue system [can be found here] (https://www.youtube.com/watch?v=lCHmfbOH5iI&feature=youtu.be)
+Tutorials on the basics of the dialogue system [can be found here](https://www.youtube.com/watch?v=lCHmfbOH5iI&feature=youtu.be)
 
-Additionally, you can watch [this video about working with speech bubbles] (https://www.youtube.com/watch?v=U3Y4K0q5zoY&feature=youtu.be).
+Additionally, you can watch [this video about working with speech bubbles](https://www.youtube.com/watch?v=U3Y4K0q5zoY&feature=youtu.be).
