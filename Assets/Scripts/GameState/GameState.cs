@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class GameState : MonoBehaviour
 {
+	[SerializeField]
+	private string gameStateAssetDirectory;
+
 	private Dictionary<string, bool> gameStates;
 
 	public static GameState gameState;
-
 
 	private void OnDisable()
 	{
@@ -30,7 +32,9 @@ public class GameState : MonoBehaviour
 	{
 		// these are for testing purposes
 		if (Input.GetKeyDown(KeyCode.V))
-			Messenger.Broadcast<string>("Game State Update", "VOLCANO_ERUPTED");
+			Messenger.Broadcast<string>("Unlock Game State", "VOLCANO_ERUPTED");
+		if (Input.GetKeyDown(KeyCode.B))
+			Messenger.Broadcast<string>("Lock Game State", "VOLCANO_ERUPTED");
 	}
 
 	private void InitSingleton()
@@ -46,8 +50,8 @@ public class GameState : MonoBehaviour
 	/// </summary>
 	private void InitListeners()
 	{
-		//foreach (KeyValuePair<string, bool> state in gameStates)
-		Messenger.AddListener<string>("Game State Update", UnlockState);
+		Messenger.AddListener<string>("Unlock Game State", UnlockState);
+		Messenger.AddListener<string>("Lock Game State", LockState);
 	}
 
 	/// <summary>
@@ -55,8 +59,8 @@ public class GameState : MonoBehaviour
 	/// </summary>
 	private void DisableListeners()
 	{
-		//foreach (KeyValuePair<string, bool> state in gameStates)
-		Messenger.RemoveListener<string>("Game State Update", UnlockState);
+		Messenger.RemoveListener<string>("Unlock Game State", UnlockState);
+		Messenger.RemoveListener<string>("Lock Game State", LockState);
 	}
 
 
@@ -65,7 +69,7 @@ public class GameState : MonoBehaviour
 	/// </summary>
 	private void LoadStateData()
 	{
-		GameStateAsset gameStateAsset = Resources.Load<GameStateAsset>("GameState/GameStateData");
+		GameStateAsset gameStateAsset = Resources.Load<GameStateAsset>(gameStateAssetDirectory);
 
 		gameStates = new Dictionary<string, bool>();
 
@@ -84,8 +88,9 @@ public class GameState : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Returns true if all the required states are unlocked.
+	/// Returns true if all the required states are unlocked. Primarily accessed by GameStateChecker.cs
 	/// </summary>
+	/// <param name="requiredStates">The list of states you wish to check</param>
 	public bool AreAllStatesUnlocked(List<string> requiredStates)
 	{
 		foreach(string stateName in requiredStates)
@@ -102,9 +107,44 @@ public class GameState : MonoBehaviour
 	/// Unlocks a game state.
 	/// </summary>
 	/// <param name="stateName">Game state to unlock.</param>
-	public void UnlockState(string stateName)
+	private void UnlockState(string stateName)
 	{
+		if (gameStates[stateName])
+			return; // if state is already unlocked, exit function.
+
 		Debug.Log("Unlocking State: " + stateName);
+
 		gameStates[stateName] = true;
+
+		// Use a try-catch block for broadcasting this message. It's possible no GameStateCheckers exist in the scene.
+		try
+		{
+			Messenger.Broadcast<string>("Game State Update", stateName); // notify GameStateChecker objects of the update
+		}
+		catch(Messenger.BroadcastException)
+		{
+		}
+	}
+
+	/// <summary>
+	/// Locks a game state and notifies listeners of this change.
+	/// </summary>
+	private void LockState(string stateName)
+	{
+		if (!gameStates[stateName])
+			return; // if state is already locked, exit function.
+
+		Debug.Log("Locking State: " + stateName);
+
+		gameStates[stateName] = false;
+
+		// Use a try-catch block for broadcasting this message. It's possible no GameStateCheckers exist in the scene.
+		try
+		{
+			Messenger.Broadcast<string>("Game State Update", stateName); // notify GameStateChecker objects of the update
+		}
+		catch (Messenger.BroadcastException)
+		{
+		}
 	}
 }

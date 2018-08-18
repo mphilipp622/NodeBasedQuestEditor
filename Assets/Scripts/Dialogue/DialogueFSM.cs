@@ -152,10 +152,25 @@ public class DialogueFSM
 			if(currentState != -1)
 			{
 				if (states[currentState].acceptQuest)
-					Messenger.Broadcast("AcceptQuest");
+					Broadcast("AcceptQuest");
 				if (states[currentState].rejectQuest)
-					Messenger.Broadcast("RejectQuest");
+					Broadcast("RejectQuest");
 			}
+		}
+	}
+
+	/// <summary>
+	/// Helper function for Messenger.Broadcast. Wraps broadcast in try-catch block.
+	/// </summary>
+	private void Broadcast(string eventName)
+	{
+		try
+		{
+			Messenger.Broadcast(eventName);
+		}
+		catch (Messenger.BroadcastException)
+		{
+
 		}
 	}
 

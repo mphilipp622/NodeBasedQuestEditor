@@ -29,6 +29,9 @@ public class LocationObjective : QuestObjective
 	/// <param name="locationThatWasReached">The location we received in the message.</param>
 	private void LocationReached(GameObject locationThatWasReached)
 	{
+		if (questOwner == null)
+			return;
+
 		if (questOwner.tag != "Player")
 			return;
 

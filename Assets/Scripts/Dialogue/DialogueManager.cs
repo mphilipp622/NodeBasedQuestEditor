@@ -104,8 +104,14 @@ public class DialogueManager : MonoBehaviour
 
 		if (gameObject.tag == "Player")
 		{
-			Messenger.Broadcast("UnlockPlayerMovement");
-			Messenger.Broadcast("QuestComplete");
+			try {
+				Messenger.Broadcast("UnlockPlayerMovement");
+				Messenger.Broadcast("QuestComplete");
+			}
+			catch(Messenger.BroadcastException) {
+
+			}
+			
 		}
 	}
 

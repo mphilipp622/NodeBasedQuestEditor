@@ -37,6 +37,9 @@ public class EnemyObjective : QuestObjective
 	/// <param name="enemyThatWasKilled">The type of enemy that was killed.</param>
 	private void EnemyKilled(Enemy enemyThatWasKilled)
 	{
+		if (questOwner == null)
+			return;
+
 		if (questOwner.tag != "Player")
 			return;
 

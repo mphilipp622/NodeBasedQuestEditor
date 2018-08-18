@@ -10,17 +10,18 @@ public abstract class GameStateChecker : MonoBehaviour
 
 	protected abstract void ExecuteProcedure();
 
-	protected virtual void Initialize()
-	{
-		//requiredStates = new Dictionary<string, bool>();
-		
-		//for(int i = 0; i < stateNames.Count; i++)
-		//{
-		//	if(stateValues[i])
-		//		requiredStates.Add(stateNames[i], stateValues[i]);
-		//}
+	protected abstract void RevertExecution();
 
+	protected abstract void Initialize();
+
+	protected virtual void OnEnable()
+	{
 		InitListeners();
+	}
+
+	protected virtual void OnDisable()
+	{
+		DisableListeners();
 	}
 
 	/// <summary>
@@ -28,8 +29,7 @@ public abstract class GameStateChecker : MonoBehaviour
 	/// </summary>
 	protected void InitListeners()
 	{
-		//foreach (KeyValuePair<string, bool> state in gameStates)
-		Messenger.AddListener<string>("Game State Update", UnlockState);
+		Messenger.AddListener<string>("Game State Update", CheckStatesAndExecute);
 	}
 
 	/// <summary>
@@ -37,16 +37,25 @@ public abstract class GameStateChecker : MonoBehaviour
 	/// </summary>
 	protected void DisableListeners()
 	{
-		//foreach (KeyValuePair<string, bool> state in gameStates)
-		Messenger.RemoveListener<string>("Game State Update", UnlockState);
+		Messenger.RemoveListener<string>("Game State Update", CheckStatesAndExecute);
 	}
 
-	protected void UnlockState(string stateName)
+	/// <summary>
+	/// Checks with GameState.cs to see if all the required states are unlocked. Executes this object's procedure if
+	/// all states are unlocked.
+	/// </summary>
+	/// <param name="stateName"></param>
+	protected void CheckStatesAndExecute(string stateName)
 	{
 		if (GameState.gameState.AreAllStatesUnlocked(requiredStates))
 			ExecuteProcedure();
+		else
+			RevertExecution();
 	}
 
+	/// <summary>
+	/// Returns a list of required states on this object.
+	/// </summary>
 	public List<string> GetRequiredStates()
 	{
 		if (requiredStates == null)
@@ -55,6 +64,9 @@ public abstract class GameStateChecker : MonoBehaviour
 		return requiredStates;
 	}
 
+	/// <summary>
+	/// Adds a state to the list of required states on this object.
+	/// </summary>
 	public void AddRequiredState(string stateName)
 	{
 		if (requiredStates == null)
@@ -66,6 +78,9 @@ public abstract class GameStateChecker : MonoBehaviour
 		requiredStates.Add(stateName);
 	}
 
+	/// <summary>
+	/// Removes a state from the list of required states on this object.
+	/// </summary>
 	public void RemoveRequiredState(string stateName)
 	{
 		if (requiredStates == null)

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class LocationBlocker : GameStateChecker
 {
+
+	private Collider2D collider;
+
 	void Start ()
 	{
 		Initialize();
@@ -14,9 +17,21 @@ public class LocationBlocker : GameStateChecker
 		
 	}
 
+	protected override void Initialize()
+	{
+		collider = GetComponent<Collider2D>();
+	}
+
 	protected override void ExecuteProcedure()
 	{
-		Debug.Log("Destroying Collider");
-		Destroy(gameObject);
+		Debug.Log("Disabling Collider");
+		collider.enabled = false;
+		//Destroy(gameObject);
+	}
+
+	protected override void RevertExecution()
+	{
+		Debug.Log("Enabling Collider");
+		collider.enabled = true;
 	}
 }
