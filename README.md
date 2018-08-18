@@ -6,6 +6,12 @@ This repo contains a sample project for my node based quest system. It also cont
 
 This asset extends the Unity editor and provides a user interface for creating customizable, game state dependent quest lines. These quests also include dialogue conversations based on my [Node Based Dialogue System](https://github.com/mphilipp622/NodeBasedDialogueSystem)
 
+## Requirements
+
+This asset was developed in Unity 2018.2.2f1. Due to the way that Unity updated their package manager, it is recommended that you install at LEAST version 2018.2.2f1 [from here](https://unity3d.com/get-unity/download?thank-you=update&download_nid=57864&os=Win)
+
+This asset has not been tested on older versions and I cannot guarantee that it will work in those environments.
+
 ## How to Download
 
 If you want the entire project, you can just clone or download the repo. If you wish to download the unity package specifically, you can [download it here](https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/NodeBasedQuestSystem.unitypackage)
