@@ -25,3 +25,9 @@ Video Tutorials will be posted soon.
 Tutorials on the basics of the dialogue system [can be found here](https://www.youtube.com/watch?v=lCHmfbOH5iI&feature=youtu.be)
 
 Additionally, you can watch [this video about working with speech bubbles](https://www.youtube.com/watch?v=U3Y4K0q5zoY&feature=youtu.be).
+
+## Future Updates
+
+The biggest priority update currently is to implement rewards. I developed this asset for my own game, which did not utilize a reward system for the quests. However, I understand that providing exp, items, currency, etc. is important for most quest systems. I hope that the system is easy enough to extend so users can create their own reward functionality until I am able to implement it. Do know that rewards are the highest priority update for this asset.
+
+At the risk of sounding like I'm making excuses, I want it to be known that I am currently busy with a full-time job and the last semester for my BS degree in Computer Science. As such, I expect to be rather busy until 2019 and will likely not be able to commit lots of time to adding features and fixing bugs until then. Thanks!

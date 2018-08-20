@@ -601,7 +601,6 @@ public class NodeEditorQuest : Node_Editor
 		nodeCanvas.objectivePaths = new List<ObjectivePath>();
 		nodeCanvas.requiredGameStates = new List<GameStateName>();
 		openedCanvas = "New Canvas";
-		numberOfStates = 0;
 		openedCanvasPath = "";
 
 		numberOfStates = 0;

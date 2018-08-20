@@ -27,7 +27,7 @@ MonoBehaviour:
   - Choice State 1
   requiredGameStateSelections: 000000
   requiredGameStates: []
-  scrollOffset: {x: 96.5, y: -725.5}
+  scrollOffset: {x: -268.5, y: -80}
   zoom: 2
   questName: Flame Lizards
   questObjectives: []
@@ -65,8 +65,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 974.5
-    y: -683.5
+    x: 609.5
+    y: -38
     width: 350
     height: 50
   Inputs:
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 978.5
-    y: -611
+    x: 613.5
+    y: 34.5
     width: 350
     height: 522
   Inputs:
@@ -149,8 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1120
-    y: -57.5
+    x: 758
+    y: 599
     width: 350
     height: 462
   Inputs:
@@ -192,8 +192,8 @@ MonoBehaviour:
   body: {fileID: 114859120140942640}
   rect:
     serializedVersion: 2
-    x: 888.5
-    y: 503.5
+    x: 523.5
+    y: 1149
     width: 123
     height: 16
   connections: []
@@ -212,8 +212,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -507.5
+    x: 331.5
+    y: 138
     width: 111
     height: 16
   connections: []
@@ -232,8 +232,8 @@ MonoBehaviour:
   body: {fileID: 114859120140942640}
   rect:
     serializedVersion: 2
-    x: 661.5
-    y: 503.5
+    x: 296.5
+    y: 1149
     width: 146
     height: 16
   connection: {fileID: 114549246657969926}
@@ -252,8 +252,8 @@ MonoBehaviour:
   body: {fileID: 114113850668703152}
   rect:
     serializedVersion: 2
-    x: 1205.5
-    y: -573
+    x: 840.5
+    y: 72.5
     width: 123
     height: 16
   connections: []
@@ -272,8 +272,8 @@ MonoBehaviour:
   body: {fileID: 114455129295374188}
   rect:
     serializedVersion: 2
-    x: 879
-    y: -16.5
+    x: 514
+    y: 629
     width: 123
     height: 16
   connections:
@@ -293,8 +293,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -489.5
+    x: 331.5
+    y: 156
     width: 111
     height: 16
   connections: []
@@ -313,8 +313,8 @@ MonoBehaviour:
   body: {fileID: 114496111484046938}
   rect:
     serializedVersion: 2
-    x: 169
-    y: -14.5
+    x: -196
+    y: 631
     width: 146
     height: 16
   connection: {fileID: 0}
@@ -333,8 +333,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -471.5
+    x: 331.5
+    y: 174
     width: 111
     height: 16
   connections: []
@@ -353,8 +353,8 @@ MonoBehaviour:
   body: {fileID: 114455129295374188}
   rect:
     serializedVersion: 2
-    x: 652
-    y: -16.5
+    x: 287
+    y: 629
     width: 146
     height: 16
   connection: {fileID: 114910048022607164}
@@ -372,8 +372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 169.5
-    y: -648.5
+    x: -195.5
+    y: -3
     width: 350
     height: 539
   Inputs:
@@ -415,8 +415,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -417.5
+    x: 331.5
+    y: 228
     width: 111
     height: 16
   connections: []
@@ -435,8 +435,8 @@ MonoBehaviour:
   body: {fileID: 114382580904733832}
   rect:
     serializedVersion: 2
-    x: 169.5
-    y: -610.5
+    x: -195.5
+    y: 35
     width: 146
     height: 16
   connection: {fileID: 0}
@@ -455,8 +455,8 @@ MonoBehaviour:
   body: {fileID: 114173372623904142}
   rect:
     serializedVersion: 2
-    x: 1120
-    y: -19.5
+    x: 758
+    y: 637
     width: 146
     height: 16
   connection: {fileID: 114299010747470932}
@@ -475,8 +475,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -561.5
+    x: 331.5
+    y: 84
     width: 111
     height: 16
   connections:
@@ -495,8 +495,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 652
-    y: -54.5
+    x: 287
+    y: 591
     width: 350
     height: 498
   Inputs:
@@ -552,8 +552,8 @@ MonoBehaviour:
   body: {fileID: 114760681348009470}
   rect:
     serializedVersion: 2
-    x: 175
-    y: 502.5
+    x: -190
+    y: 1148
     width: 146
     height: 16
   connection: {fileID: 0}
@@ -572,8 +572,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 652.5
-    y: -604.5
+    x: 287.5
+    y: 41
     width: 150
     height: 16
   connection: {fileID: 114740659114728958}
@@ -592,8 +592,8 @@ MonoBehaviour:
   body: {fileID: 114089189533961400}
   rect:
     serializedVersion: 2
-    x: 1131.5
-    y: -663.5
+    x: 766.5
+    y: -18
     width: 193
     height: 16
   connections: []
@@ -611,8 +611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 169
-    y: -52.5
+    x: -196
+    y: 593
     width: 350
     height: 481
   Inputs:
@@ -670,8 +670,8 @@ MonoBehaviour:
   body: {fileID: 114760681348009470}
   rect:
     serializedVersion: 2
-    x: 402
-    y: 502.5
+    x: 37
+    y: 1148
     width: 123
     height: 16
   connections:
@@ -691,8 +691,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -435.5
+    x: 331.5
+    y: 210
     width: 111
     height: 16
   connections: []
@@ -711,8 +711,8 @@ MonoBehaviour:
   body: {fileID: 114382580904733832}
   rect:
     serializedVersion: 2
-    x: 396.5
-    y: -610.5
+    x: 31.5
+    y: 35
     width: 123
     height: 16
   connections:
@@ -731,8 +731,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 175
-    y: 464.5
+    x: -190
+    y: 1110
     width: 350
     height: 481
   Inputs:
@@ -790,8 +790,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -543.5
+    x: 331.5
+    y: 102
     width: 111
     height: 16
   connections:
@@ -811,8 +811,8 @@ MonoBehaviour:
   body: {fileID: 114113850668703152}
   rect:
     serializedVersion: 2
-    x: 978.5
-    y: -573
+    x: 613.5
+    y: 72.5
     width: 146
     height: 16
   connection: {fileID: 114812942442755854}
@@ -830,8 +830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 661.5
-    y: 465.5
+    x: 296.5
+    y: 1111
     width: 350
     height: 498
   Inputs:
@@ -872,8 +872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 652.5
-    y: -642.5
+    x: 287.5
+    y: 3
     width: 155
     height: 246
   Inputs:
@@ -911,8 +911,8 @@ MonoBehaviour:
   body: {fileID: 114089189533961400}
   rect:
     serializedVersion: 2
-    x: 974.5
-    y: -663.5
+    x: 609.5
+    y: -18
     width: 345
     height: 16
   connection: {fileID: 114432245329043768}
@@ -931,8 +931,8 @@ MonoBehaviour:
   body: {fileID: 114496111484046938}
   rect:
     serializedVersion: 2
-    x: 396
-    y: -14.5
+    x: 31
+    y: 631
     width: 123
     height: 16
   connections:
@@ -952,8 +952,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -453.5
+    x: 331.5
+    y: 192
     width: 111
     height: 16
   connections: []
@@ -972,8 +972,8 @@ MonoBehaviour:
   body: {fileID: 114862395419036130}
   rect:
     serializedVersion: 2
-    x: 696.5
-    y: -525.5
+    x: 331.5
+    y: 120
     width: 111
     height: 16
   connections: []
@@ -992,8 +992,8 @@ MonoBehaviour:
   body: {fileID: 114173372623904142}
   rect:
     serializedVersion: 2
-    x: 1347
-    y: -19.5
+    x: 985
+    y: 637
     width: 123
     height: 16
   connections: []
