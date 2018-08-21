@@ -20,7 +20,7 @@ If you want the entire project, you can just clone or download the repo. If you 
 
 It is recommended to download and read the [how to use pdf](https://github.com/mphilipp622/NodeBasedQuestEditor/blob/master/Assets/Node_Editor/HowToUseQuestEditor.pdf)
 
-You can review the (how to use video)[https://youtu.be/xMCmULaIU4I] to get an introduction to the basics of using the asset.
+You can review the [how to use video](https://youtu.be/xMCmULaIU4I) to get an introduction to the basics of using the asset.
 
 Tutorials on the basics of the dialogue system [can be found here](https://www.youtube.com/watch?v=lCHmfbOH5iI&feature=youtu.be)
 
