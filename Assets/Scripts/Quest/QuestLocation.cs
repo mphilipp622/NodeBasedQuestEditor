@@ -20,7 +20,7 @@ public class QuestLocation : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		Debug.Log("TestCollider");
+		//Debug.Log("TestCollider");
 		if (collision.tag == "Player")
 			Messenger.Broadcast<GameObject>("Location Reached", gameObject);
 	}

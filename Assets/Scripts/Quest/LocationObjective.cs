@@ -29,7 +29,7 @@ public class LocationObjective : QuestObjective
 	/// <param name="locationThatWasReached">The location we received in the message.</param>
 	private void LocationReached(GameObject locationThatWasReached)
 	{
-		Debug.Log("Test");
+		//Debug.Log("Test");
 		if (questOwner == null)
 			return;
 
