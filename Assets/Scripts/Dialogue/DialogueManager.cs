@@ -273,7 +273,7 @@ public class DialogueManager : MonoBehaviour
 	{
 		if (charactersInRange.Count < 1)
 			return; // we need to have at least 1 nearby npc to attempt to talk to them.
-
+		
 		foreach (DialogueFSM fsm in dialogueTrees)
 		{
 			if (fsm.AreCharactersInRangeParticipants(charactersInRange))

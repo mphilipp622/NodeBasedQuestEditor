@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -32,7 +33,7 @@ MonoBehaviour:
   - Choice State 1
   requiredGameStateSelections: 000000
   requiredGameStates: []
-  scrollOffset: {x: 16.5, y: 328}
+  scrollOffset: {x: 57.5, y: 354.5}
   zoom: 2
   questName: A Bridge Too Far...
   questObjectives: []
@@ -42,12 +43,13 @@ MonoBehaviour:
   requiredQuests:
   - {fileID: 11400000, guid: d2259364cad59ae4894c157e42e7515b, type: 2}
   newQuest: {fileID: 11400000, guid: fc99cda7a968a554080b6065a9be2fe4, type: 2}
-  questGiver: {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  questGiver: {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
 --- !u!114 &114069632708337364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -57,8 +59,8 @@ MonoBehaviour:
   body: {fileID: 114628605158971798}
   rect:
     serializedVersion: 2
-    x: 45.5
-    y: 623.5
+    x: 86.5
+    y: 650
     width: 345
     height: 16
   connections:
@@ -68,7 +70,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -78,8 +81,8 @@ MonoBehaviour:
   body: {fileID: 114251134980579120}
   rect:
     serializedVersion: 2
-    x: 1287
-    y: 460.5
+    x: 1328
+    y: 487
     width: 345
     height: 16
   connections: []
@@ -88,7 +91,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -97,8 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 808.5
-    y: 278.5
+    x: 849.5
+    y: 305
     width: 350
     height: 50
   Inputs:
@@ -112,7 +116,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -130,7 +134,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -139,8 +144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 50.5
-    y: 317.5
+    x: 91.5
+    y: 344
     width: 350
     height: 50
   Inputs:
@@ -154,7 +159,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -172,7 +177,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -182,8 +188,8 @@ MonoBehaviour:
   body: {fileID: 114085489784995090}
   rect:
     serializedVersion: 2
-    x: 50.5
-    y: 337.5
+    x: 91.5
+    y: 364
     width: 345
     height: 16
   connection: {fileID: 0}
@@ -192,7 +198,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -202,8 +209,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []
@@ -212,7 +219,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -222,8 +230,8 @@ MonoBehaviour:
   body: {fileID: 114577557994744062}
   rect:
     serializedVersion: 2
-    x: 1282
-    y: 391.5
+    x: 1323
+    y: 418
     width: 345
     height: 16
   connections:
@@ -233,7 +241,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -243,8 +252,8 @@ MonoBehaviour:
   body: {fileID: 114745568419881698}
   rect:
     serializedVersion: 2
-    x: 1727
-    y: 392.5
+    x: 1768
+    y: 419
     width: 345
     height: 16
   connection: {fileID: 114137508696162580}
@@ -253,7 +262,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -263,8 +273,8 @@ MonoBehaviour:
   body: {fileID: 114543746254019130}
   rect:
     serializedVersion: 2
-    x: 1024
-    y: 623
+    x: 1065
+    y: 649.5
     width: 345
     height: 16
   connection: {fileID: 114701866739454114}
@@ -273,7 +283,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -283,8 +294,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 510.5
-    y: 336.5
+    x: 551.5
+    y: 363
     width: 150
     height: 16
   connection: {fileID: 114318341644018066}
@@ -293,7 +304,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -302,8 +314,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1282
-    y: 440.5
+    x: 1323
+    y: 467
     width: 350
     height: 50
   Inputs:
@@ -317,7 +329,7 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -335,7 +347,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -345,10 +358,10 @@ MonoBehaviour:
   body: {fileID: 114074265569939368}
   rect:
     serializedVersion: 2
-    x: 920.5
-    y: 298.5
+    x: 961.5
+    y: 326
     width: 238
-    height: 16
+    height: 15
   connections:
   - {fileID: 114688980909534846}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -356,7 +369,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -366,8 +380,8 @@ MonoBehaviour:
   body: {fileID: 114577557994744062}
   rect:
     serializedVersion: 2
-    x: 1277
-    y: 391.5
+    x: 1318
+    y: 418
     width: 345
     height: 16
   connection: {fileID: 114658765610247216}
@@ -376,7 +390,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -385,8 +400,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 542.5
-    y: 604.5
+    x: 583.5
+    y: 631
     width: 350
     height: 50
   Inputs:
@@ -400,7 +415,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -418,7 +433,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -428,8 +444,8 @@ MonoBehaviour:
   body: {fileID: 114085489784995090}
   rect:
     serializedVersion: 2
-    x: 55.5
-    y: 337.5
+    x: 96.5
+    y: 364
     width: 345
     height: 16
   connections:
@@ -439,7 +455,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -449,10 +466,10 @@ MonoBehaviour:
   body: {fileID: 114470129406857524}
   rect:
     serializedVersion: 2
-    x: 974
-    y: 456.5
+    x: 1015
+    y: 484
     width: 192
-    height: 16
+    height: 15
   connections:
   - {fileID: 114587697670194002}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -460,7 +477,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -470,8 +488,8 @@ MonoBehaviour:
   body: {fileID: 114604292568674528}
   rect:
     serializedVersion: 2
-    x: 1268.5
-    y: 298.5
+    x: 1309.5
+    y: 325
     width: 345
     height: 16
   connections: []
@@ -480,7 +498,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -488,7 +507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberToCollect: 0
-  objective: {fileID: 1320577151863524, guid: a64978a049f0d1546862750dc67095f8, type: 2}
+  objective: {fileID: 1689079826638353982, guid: d18d36a70e2c61e4ba666c3c4f753ff8,
+    type: 3}
   moveUp: 0
   moveDown: 0
   delete: 0
@@ -496,7 +516,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -506,8 +527,8 @@ MonoBehaviour:
   body: {fileID: 114694779710140084}
   rect:
     serializedVersion: 2
-    x: 30
-    y: 743.5
+    x: 71
+    y: 770
     width: 345
     height: 16
   connection: {fileID: 0}
@@ -516,7 +537,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -525,8 +547,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 816
-    y: 436.5
+    x: 857
+    y: 463
     width: 350
     height: 50
   Inputs:
@@ -540,7 +562,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -558,7 +580,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -568,8 +591,8 @@ MonoBehaviour:
   body: {fileID: 114543746254019130}
   rect:
     serializedVersion: 2
-    x: 1029
-    y: 623
+    x: 1070
+    y: 649.5
     width: 345
     height: 16
   connections: []
@@ -578,7 +601,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -587,8 +611,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 510.5
-    y: 316.5
+    x: 551.5
+    y: 343
     width: 155
     height: 50
   Inputs:
@@ -616,7 +640,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -625,8 +650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1024
-    y: 603
+    x: 1065
+    y: 629.5
     width: 350
     height: 50
   Inputs:
@@ -640,7 +665,7 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -658,7 +683,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -667,8 +693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1277
-    y: 371.5
+    x: 1318
+    y: 398
     width: 350
     height: 50
   Inputs:
@@ -682,7 +708,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -700,7 +726,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -710,8 +737,8 @@ MonoBehaviour:
   body: {fileID: 114251134980579120}
   rect:
     serializedVersion: 2
-    x: 1282
-    y: 460.5
+    x: 1323
+    y: 487
     width: 345
     height: 16
   connection: {fileID: 114328786701149338}
@@ -720,7 +747,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -735,7 +763,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -744,8 +773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1263.5
-    y: 278.5
+    x: 1304.5
+    y: 305
     width: 350
     height: 50
   Inputs:
@@ -759,7 +788,7 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -777,7 +806,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -787,8 +817,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []
@@ -797,7 +827,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -807,8 +838,8 @@ MonoBehaviour:
   body: {fileID: 114308299193091574}
   rect:
     serializedVersion: 2
-    x: 542.5
-    y: 624.5
+    x: 583.5
+    y: 651
     width: 345
     height: 16
   connection: {fileID: 114069632708337364}
@@ -817,7 +848,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -827,17 +859,18 @@ MonoBehaviour:
   body: {fileID: 114719090368122530}
   rect:
     serializedVersion: 2
-    x: 807
-    y: 388.5
+    x: 848
+    y: 416
     width: 346
-    height: 16
+    height: 15
   connection: {fileID: 114830423288334340}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114628605158971798
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -846,8 +879,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 40.5
-    y: 603.5
+    x: 81.5
+    y: 630
     width: 350
     height: 50
   Inputs:
@@ -861,7 +894,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -879,7 +912,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -889,17 +923,18 @@ MonoBehaviour:
   body: {fileID: 114470129406857524}
   rect:
     serializedVersion: 2
-    x: 816
-    y: 456.5
+    x: 857
+    y: 484
     width: 345
-    height: 16
+    height: 15
   connection: {fileID: 114663387429471460}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114651253683709014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -909,8 +944,8 @@ MonoBehaviour:
   body: {fileID: 114801343703972094}
   rect:
     serializedVersion: 2
-    x: 508
-    y: 741.5
+    x: 549
+    y: 768
     width: 345
     height: 16
   connections: []
@@ -919,7 +954,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -929,10 +965,10 @@ MonoBehaviour:
   body: {fileID: 114719090368122530}
   rect:
     serializedVersion: 2
-    x: 931
-    y: 388.5
+    x: 972
+    y: 416
     width: 226
-    height: 16
+    height: 15
   connections:
   - {fileID: 114293214623348680}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -940,7 +976,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -950,8 +987,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections:
@@ -961,7 +998,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -971,8 +1009,8 @@ MonoBehaviour:
   body: {fileID: 114604292568674528}
   rect:
     serializedVersion: 2
-    x: 1263.5
-    y: 298.5
+    x: 1304.5
+    y: 325
     width: 345
     height: 16
   connection: {fileID: 114269073786016644}
@@ -981,7 +1019,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -990,8 +1029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 30
-    y: 723.5
+    x: 71
+    y: 750
     width: 350
     height: 50
   Inputs:
@@ -1005,7 +1044,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -1023,7 +1062,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1033,8 +1073,8 @@ MonoBehaviour:
   body: {fileID: 114308299193091574}
   rect:
     serializedVersion: 2
-    x: 547.5
-    y: 624.5
+    x: 588.5
+    y: 651
     width: 345
     height: 16
   connections:
@@ -1044,7 +1084,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1053,8 +1094,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 807
-    y: 368.5
+    x: 848
+    y: 395
     width: 350
     height: 50
   Inputs:
@@ -1068,7 +1109,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -1086,7 +1127,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1096,8 +1138,8 @@ MonoBehaviour:
   body: {fileID: 114694779710140084}
   rect:
     serializedVersion: 2
-    x: 35
-    y: 743.5
+    x: 76
+    y: 770
     width: 345
     height: 16
   connections:
@@ -1107,7 +1149,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1116,8 +1159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1727
-    y: 372.5
+    x: 1768
+    y: 399
     width: 350
     height: 50
   Inputs:
@@ -1131,7 +1174,7 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -1149,7 +1192,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1159,8 +1203,8 @@ MonoBehaviour:
   body: {fileID: 114801343703972094}
   rect:
     serializedVersion: 2
-    x: 503
-    y: 741.5
+    x: 544
+    y: 768
     width: 345
     height: 16
   connection: {fileID: 114727989961605836}
@@ -1169,7 +1213,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1178,8 +1223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 503
-    y: 721.5
+    x: 544
+    y: 748
     width: 350
     height: 50
   Inputs:
@@ -1193,7 +1238,7 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 2}
+  - {fileID: 1299864340470662, guid: c3f9ceb0f9c7fd34da5b5e65730cfe95, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -1211,7 +1256,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1221,8 +1267,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections:
@@ -1232,7 +1278,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1242,17 +1289,18 @@ MonoBehaviour:
   body: {fileID: 114074265569939368}
   rect:
     serializedVersion: 2
-    x: 808.5
-    y: 298.5
+    x: 849.5
+    y: 326
     width: 346
-    height: 16
+    height: 15
   connection: {fileID: 114810098866201096}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114830423288334340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1262,8 +1310,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections:
@@ -1273,7 +1321,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1283,8 +1332,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []
@@ -1293,7 +1342,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1303,8 +1353,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []
@@ -1313,7 +1363,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1323,8 +1374,8 @@ MonoBehaviour:
   body: {fileID: 114745568419881698}
   rect:
     serializedVersion: 2
-    x: 1732
-    y: 392.5
+    x: 1773
+    y: 419
     width: 345
     height: 16
   connections: []
@@ -1333,7 +1384,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1343,8 +1395,8 @@ MonoBehaviour:
   body: {fileID: 114628605158971798}
   rect:
     serializedVersion: 2
-    x: 40.5
-    y: 623.5
+    x: 81.5
+    y: 650
     width: 345
     height: 16
   connection: {fileID: 0}
@@ -1353,7 +1405,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1363,8 +1416,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []
@@ -1373,7 +1426,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1381,7 +1435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberToCollect: 5
-  objective: {fileID: 1563204960119586, guid: e7e936328b65b8f4bbe814d449382a57, type: 2}
+  objective: {fileID: 1563204960119586, guid: e7e936328b65b8f4bbe814d449382a57, type: 3}
   moveUp: 0
   moveDown: 0
   delete: 0
@@ -1389,7 +1443,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1399,8 +1454,8 @@ MonoBehaviour:
   body: {fileID: 114528784017667614}
   rect:
     serializedVersion: 2
-    x: 515.5
-    y: 336.5
+    x: 556.5
+    y: 363
     width: 150
     height: 16
   connections: []

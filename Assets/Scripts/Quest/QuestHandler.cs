@@ -120,6 +120,8 @@ public class QuestHandler : MonoBehaviour
 	/// </summary>
 	public void TurnInQuest()
 	{
+		if (nearbyQuestGivers.Count == 0)
+			return;
 		if (!quests.ContainsKey(nearbyQuestGivers[0].gameObject.name))
 			return; // if we don't have a quest from this npc, quit function
 

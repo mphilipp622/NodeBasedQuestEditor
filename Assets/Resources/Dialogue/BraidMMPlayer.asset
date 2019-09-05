@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -26,9 +27,9 @@ MonoBehaviour:
   - {fileID: 114826862559553240}
   choiceNodeNames:
   - Choice State 1
-  requiredGameStateSelections: 00
+  requiredGameStateSelections: 000000
   requiredGameStates: []
-  scrollOffset: {x: -1733, y: 76.5}
+  scrollOffset: {x: -110, y: 51}
   zoom: 2
   numberOfTimesConversationCanHappen: 1
   probabilityOfOccurrence: 1
@@ -36,7 +37,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -46,17 +48,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 506.5
+    x: 550
+    y: 472
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114049458675036738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -65,8 +68,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -320.5
-    y: 190
+    x: 1302.5
+    y: 164.5
     width: 350
     height: 498
   Inputs:
@@ -80,7 +83,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 2}
+  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -94,7 +97,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -104,10 +108,10 @@ MonoBehaviour:
   body: {fileID: 114526984334902000}
   rect:
     serializedVersion: 2
-    x: 406
-    y: 244
+    x: 2029
+    y: 218.5
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114718123986426438}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -115,7 +119,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -125,17 +130,18 @@ MonoBehaviour:
   body: {fileID: 114538326579794210}
   rect:
     serializedVersion: 2
-    x: -117.5
-    y: 759
+    x: 1505.5
+    y: 733.5
     width: 123
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114129174544469300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -145,17 +151,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 452.5
+    x: 550
+    y: 421
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114163760231579994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -164,8 +171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -1612
-    y: 273.5
+    x: 11
+    y: 248
     width: 350
     height: 841
   Inputs:
@@ -179,8 +186,8 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 2}
-  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 3}
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 3}
   speakerImages:
   - {fileID: 0}
   - {fileID: 0}
@@ -197,7 +204,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -207,17 +215,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 416.5
+    x: 550
+    y: 387
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114243110081664404
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -227,10 +236,10 @@ MonoBehaviour:
   body: {fileID: 114163760231579994}
   rect:
     serializedVersion: 2
-    x: -1385
-    y: 311.5
+    x: 238
+    y: 286
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114644858104023520}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -238,7 +247,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -248,17 +258,18 @@ MonoBehaviour:
   body: {fileID: 114862702412247896}
   rect:
     serializedVersion: 2
-    x: -811
-    y: 261.5
+    x: 812
+    y: 236
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114926489916254872}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114285555015670306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -268,17 +279,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 434.5
+    x: 550
+    y: 404
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114332974818295666
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -288,17 +300,18 @@ MonoBehaviour:
   body: {fileID: 114549108041487416}
   rect:
     serializedVersion: 2
-    x: 1553
-    y: 242
+    x: 3176
+    y: 216.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114886142873413602}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114335575086405950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -308,17 +321,18 @@ MonoBehaviour:
   body: {fileID: 114883211999972470}
   rect:
     serializedVersion: 2
-    x: -798.5
-    y: 753
+    x: 824.5
+    y: 727.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114572937861657836}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114388840757912194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -327,8 +341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 646
-    y: 206
+    x: 2269
+    y: 180.5
     width: 350
     height: 498
   Inputs:
@@ -342,7 +356,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -356,7 +370,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -366,17 +381,18 @@ MonoBehaviour:
   body: {fileID: 114526984334902000}
   rect:
     serializedVersion: 2
-    x: 179
-    y: 244
+    x: 1802
+    y: 218.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114712029470991224}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114449046548659646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -386,17 +402,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 488.5
+    x: 550
+    y: 455
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114487712972557120
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -406,17 +423,18 @@ MonoBehaviour:
   body: {fileID: 114538326579794210}
   rect:
     serializedVersion: 2
-    x: -344.5
-    y: 759
+    x: 1278.5
+    y: 733.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114593903831110680}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114493447322525142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -426,10 +444,10 @@ MonoBehaviour:
   body: {fileID: 114862702412247896}
   rect:
     serializedVersion: 2
-    x: -584
-    y: 261.5
+    x: 1039
+    y: 236
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114976043508456008}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -437,7 +455,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -447,17 +466,18 @@ MonoBehaviour:
   body: {fileID: 114163760231579994}
   rect:
     serializedVersion: 2
-    x: -1612
-    y: 311.5
+    x: 11
+    y: 286
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 0}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114526984334902000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -466,8 +486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 179
-    y: 206
+    x: 1802
+    y: 180.5
     width: 350
     height: 458
   Inputs:
@@ -481,7 +501,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -495,7 +515,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -504,8 +525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -344.5
-    y: 721
+    x: 1278.5
+    y: 695.5
     width: 350
     height: 836
   Inputs:
@@ -519,8 +540,8 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 2}
-  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 3}
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 3}
   speakerImages:
   - {fileID: 0}
   - {fileID: 0}
@@ -537,7 +558,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -546,8 +568,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1553
-    y: 204
+    x: 3176
+    y: 178.5
     width: 350
     height: 836
   Inputs:
@@ -561,8 +583,8 @@ MonoBehaviour:
   isFinalState: 1
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 2}
-  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 2}
+  - {fileID: 1611766483522690, guid: e980799e1ae36f7468f2e975cfc635d3, type: 3}
+  - {fileID: 1269463871297686, guid: 2a36daffaaaf2f64c9802bc58afa6980, type: 3}
   speakerImages:
   - {fileID: 0}
   - {fileID: 0}
@@ -579,7 +601,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -589,10 +612,10 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 380.5
+    x: 550
+    y: 353
     width: 111
-    height: 16
+    height: 15
   connections:
   - {fileID: 114335575086405950}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -600,7 +623,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -610,10 +634,10 @@ MonoBehaviour:
   body: {fileID: 114883211999972470}
   rect:
     serializedVersion: 2
-    x: -571.5
-    y: 753
+    x: 1051.5
+    y: 727.5
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114487712972557120}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -621,7 +645,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -631,17 +656,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 470.5
+    x: 550
+    y: 438
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114617298193673286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -651,17 +677,18 @@ MonoBehaviour:
   body: {fileID: 114845942553889054}
   rect:
     serializedVersion: 2
-    x: 1112
-    y: 243
+    x: 2735
+    y: 217.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114633374947075204}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114633374947075204
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -671,10 +698,10 @@ MonoBehaviour:
   body: {fileID: 114388840757912194}
   rect:
     serializedVersion: 2
-    x: 873
-    y: 244
+    x: 2496
+    y: 218.5
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114617298193673286}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -682,7 +709,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -692,17 +720,18 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1117
-    y: 319.5
+    x: 506
+    y: 294
     width: 150
-    height: 16
+    height: 15
   connection: {fileID: 114243110081664404}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114645030853840806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -712,17 +741,18 @@ MonoBehaviour:
   body: {fileID: 114549108041487416}
   rect:
     serializedVersion: 2
-    x: 1780
-    y: 242
+    x: 3403
+    y: 216.5
     width: 123
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114712029470991224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -732,10 +762,10 @@ MonoBehaviour:
   body: {fileID: 114049458675036738}
   rect:
     serializedVersion: 2
-    x: -93.5
-    y: 228
+    x: 1529.5
+    y: 202.5
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114404447889125568}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -743,7 +773,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -753,17 +784,18 @@ MonoBehaviour:
   body: {fileID: 114388840757912194}
   rect:
     serializedVersion: 2
-    x: 646
-    y: 244
+    x: 2269
+    y: 218.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114062099040446194}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114826862559553240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -772,8 +804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -1117
-    y: 281.5
+    x: 506
+    y: 256
     width: 155
     height: 246
   Inputs:
@@ -799,7 +831,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -808,8 +841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 1112
-    y: 205
+    x: 2735
+    y: 179.5
     width: 350
     height: 458
   Inputs:
@@ -823,7 +856,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -837,7 +870,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -846,8 +880,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -811
-    y: 223.5
+    x: 812
+    y: 198
     width: 350
     height: 458
   Inputs:
@@ -861,7 +895,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -875,7 +909,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -884,8 +919,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: -798.5
-    y: 715
+    x: 824.5
+    y: 689.5
     width: 350
     height: 486
   Inputs:
@@ -899,7 +934,7 @@ MonoBehaviour:
   isFinalState: 0
   previousChoiceNode: {fileID: 0}
   speakers:
-  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 2}
+  - {fileID: 1558086843310674, guid: c01a0d87193b21c4d8bdc91d10b958c4, type: 3}
   speakerImages:
   - {fileID: 0}
   dialogues:
@@ -913,7 +948,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -923,10 +959,10 @@ MonoBehaviour:
   body: {fileID: 114845942553889054}
   rect:
     serializedVersion: 2
-    x: 1339
-    y: 243
+    x: 2962
+    y: 217.5
     width: 123
-    height: 16
+    height: 15
   connections:
   - {fileID: 114332974818295666}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -934,7 +970,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -944,10 +981,10 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 362.5
+    x: 550
+    y: 336
     width: 111
-    height: 16
+    height: 15
   connections:
   - {fileID: 114245539754341908}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -955,7 +992,8 @@ MonoBehaviour:
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -965,17 +1003,18 @@ MonoBehaviour:
   body: {fileID: 114049458675036738}
   rect:
     serializedVersion: 2
-    x: -320.5
-    y: 228
+    x: 1302.5
+    y: 202.5
     width: 146
-    height: 16
+    height: 15
   connection: {fileID: 114493447322525142}
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 --- !u!114 &114993538955071972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -985,9 +1024,9 @@ MonoBehaviour:
   body: {fileID: 114826862559553240}
   rect:
     serializedVersion: 2
-    x: -1073
-    y: 398.5
+    x: 550
+    y: 370
     width: 111
-    height: 16
+    height: 15
   connections: []
   type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089

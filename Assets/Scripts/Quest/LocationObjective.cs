@@ -29,6 +29,7 @@ public class LocationObjective : QuestObjective
 	/// <param name="locationThatWasReached">The location we received in the message.</param>
 	private void LocationReached(GameObject locationThatWasReached)
 	{
+		Debug.Log("Test");
 		if (questOwner == null)
 			return;
 
@@ -38,6 +39,7 @@ public class LocationObjective : QuestObjective
 		if (IsComplete() || !objectiveActive)
 			return;
 
+		
 		// Compare prefab and instance locations. Since instance is being created at the same location as prefab, the prefab and instance will both have equal positions.
 		if (locationThatWasReached.transform.position == objectiveObject.transform.position)
 		{
